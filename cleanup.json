@@ -1,0 +1,8 @@
+{
+  "delete": [
+    "atmosphere", "bootloader", "config", "sept", "warmboot_mariko",
+    "stratosphere", "payload.bin", "reboot_payload.bin"
+  ],
+  "delete_children": ["switch"],
+  "preserve": ["switch/JKSV", "switch/EdiZon", "switch/NX-Activity-Log"]
+}
